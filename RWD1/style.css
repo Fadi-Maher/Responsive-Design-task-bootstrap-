@@ -1,0 +1,179 @@
+main{
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+     
+    
+   
+}
+
+.firstCon{
+ width: 18rem;
+height: 65vh;
+    
+  border-radius: 20px;
+align-self: center;
+    
+ background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.secondCon{ 
+    width: 18rem;
+    height: 65vh;
+    background-color: hsl(0, 0%, 100%);
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+     border-radius: 20px;
+     
+}
+
+h2{
+     color: rgb(226, 221, 221);
+    text-align: center;
+    margin-bottom: 3rem;
+   font-family:  [Hanken Grotesk];
+}
+
+.circle{
+    width: 50%;
+    height: 30%;
+    border-radius: 50%;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+    
+}
+.circle  p:first-child{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 0.3rem;
+    margin-top: 1rem;
+      
+     
+    
+
+}
+.circle  p:nth-child(2){
+    color: rgb(185, 183, 183);
+    text-align: center;
+     align-self: center;
+    font-weight: bolder;
+    margin-top: 0.1rem;
+    
+
+}
+
+.firstCon p:nth-child(3){
+   color: aliceblue;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.firstCon p:nth-child(4){
+   color: rgb(248, 243, 243);
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+   width: 70%;
+   margin: auto;
+   
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+ 
+  .secondCon h2{
+    color: rgb(78, 77, 77);
+    text-align: left;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    
+    
+     
+     
+  }
+
+  .card{
+display: flex;
+flex-wrap: wrap;
+gap: 80px;
+width: 15rem;
+min-width: fit-content;
+margin: auto;
+border-radius: 10px;
+ 
+ 
+  }
+  .card1{
+        background-color: hsla(0, 100%, 67% , 0.1);
+        gap: 70px;
+  }
+  .card2{
+        background-color: hsl(39, 100%, 56%,0.1);
+         gap: 70px;
+  }
+  
+  .card3{
+        background-color:hsl(166, 100%, 37% , 0.1);
+  }
+
+  .card4{
+        background-color:hsl(234, 85%, 45%, 0.1);
+  }
+
+   .allcards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+     
+   }
+   img{
+    padding: 10px;
+   }
+
+   .card div{
+    display: flex;
+    gap: 10px;
+ 
+   }
+   .num{
+    color:rgba(0,0,0,0.5)
+   }
+
+   button{
+   background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    width: 90%;
+    display: block;
+     margin: auto;
+     margin-top: 2rem;
+     cursor: pointer;
+    
+
+   }
+   button:hover{
+
+     background-color:hsl(234, 85%, 45%);
+
+   }
+    
